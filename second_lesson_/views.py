@@ -11,12 +11,12 @@ def index2(request):
 
 def index3(request):
     name = 'Сенджу Тобирама'
-    return render(request, 'index2.html', locals())
+    return render(request, 'index3.html', locals())
 
 def index4(request):
     name = 'Учиха Мадара'
-    return render(request, 'index2.html', locals())
+    return render(request, 'index4.html', locals())
 
 def index5(request):
     name = 'Учиха Изуна'
-    return render(request, 'index2.html', locals())
+    return render(request, 'index5.html', locals())

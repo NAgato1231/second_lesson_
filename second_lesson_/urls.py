@@ -26,6 +26,6 @@ urlpatterns = [
     path('2/', index2, name='index2'),
     path('3/', index3, name='index3'),
     path('4/', index4, name='index4'),
-    path('5/', index5, name='index4'),
+    path('5/', index5, name='index5'),
     path('admin/', admin.site.urls),
 ]
